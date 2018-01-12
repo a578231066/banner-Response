@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>简单的jQuery滑动条-简单但功能强大的幻灯片</title>
+		<meta name="description" content="一个简单但非常强大的滑块，它可以做滑块所必须做的工作：滑动滑梯。">
+		<!-- 演示的样式表 -->
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<style>
+			.slide img{width: 100%; height: 100%;}
+		</style>
+	</head>
+	<body>
+		<div class='pagewrap'>
+			<div class='pageblock' id='fullscreen'>
+				<div class='slider'>
+					<div class='slide' id="first">
+						<img src="images/bg1.jpg" alt="" />
+					</div>
+					<div class='slide' id="sec">
+						<img src="images/bg2.jpg" alt="" />
+					</div>
+					<div class='slide' id="thirth">
+						<img src="images/bg3.jpg" alt="" />
+					</div>
+					<div class='slide' id="fourth">
+						<img src="images/bg4.jpg" alt="" />
+					</div>
+					<div class='slide' id="fourth">
+						<img src="images/bg5.jpg" alt="" />
+					</div>
+					<div class='slide' id="fourth">
+						<img src="images/bg6.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 从CDN中获取jQuery -->
+		<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+		<!-- 包含滑块脚本 -->
+		<script type="text/javascript" src="js/transit.js"></script>
+		<script type="text/javascript" src="js/touchSwipe.js"></script>
+		<script type="text/javascript" src="js/simpleSlider.js"></script>
+		<script type="text/javascript" src="js/backstretch.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+	</body>
+</html>
