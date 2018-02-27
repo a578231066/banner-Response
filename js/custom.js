@@ -1,5 +1,4 @@
 var mainslider;
-
 $(document).ready(function(){
     var options = {
         slides: '.slide', // 在slidescontainer幻灯片的名称
@@ -15,7 +14,6 @@ $(document).ready(function(){
 
     $(".slider").simpleSlider(options);
     mainslider = $(".slider").data("simpleslider");
-    /* 是的，就这些! */
 
     $(".slider").on("beforeSliding", function(event){
         var prevSlide = event.prevSlide;
